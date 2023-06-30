@@ -1,5 +1,5 @@
 # Docker
-_Use docker to run React app and CherryPy API_ with **'docker-compose up --build'**
+Use Docker to run React app and CherryPy API with **'docker-compose up --build'**
 
 If this works:
 
