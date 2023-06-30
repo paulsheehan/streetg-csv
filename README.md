@@ -20,4 +20,8 @@ npm run build
 # Jest testing
 npm run test
 
-Hopefully that covers everything. Enjoy!
+
+# App Structure
+Api written in Python's lightweight CherryPy framework. app.py acts as the main controller and handles get requests. DataProcessor script imported to handle CSV data. It uses the 'nameparser' Python library to do all the heavy lifting with parsing the names. I created my own function called 'splitNames()', for handling rows with x and y names.
+
+
