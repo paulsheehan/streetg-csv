@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: dockerfile.server
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - '8080:8080/tcp'
+  client:
+    build:
+      context: .
+      dockerfile: dockerfile.client
+    ports:
+      - '3000:3000/tcp'
